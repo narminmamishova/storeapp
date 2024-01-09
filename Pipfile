@@ -14,9 +14,11 @@ djoser = "*"
 djangorestframework-simplejwt = "*"
 pillow = "*"
 django-templated-mail = "*"
+redis = "*"
+flower = "*"
 
 [dev-packages]
 autopep8 = "*"
 
 [requires]
-python_version = "3.9"
+python_version = "*"
