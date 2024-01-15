@@ -16,6 +16,7 @@ pillow = "*"
 django-templated-mail = "*"
 redis = "*"
 flower = "*"
+django-redis = "*"
 
 [dev-packages]
 autopep8 = "*"
