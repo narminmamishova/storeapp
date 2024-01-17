@@ -6,13 +6,22 @@ from django.views.decorators.cache import cache_page
 from django.shortcuts import render
 from rest_framework.views import APIView
 import requests
+import logging
 
+
+
+logger = logging.getLogger(__name__)
 
 class SayHello(APIView):
-    @method_decorator(cache_page(5*60)) 
+    # @method_decorator(cache_page(5*60)) 
     def get(self,request):
-        response = requests.get("http://httpbin.org/delay/2")
-        data = response.json()
+        try:
+            logger.info("Calling HTTPbin")
+            response = requests.get("http://httpbin.org/delay/2")
+            logger.info("Received the Response")
+            data = response.json()
+        except requests.ConnectionError:
+            logger.critical("HTTPbin is offline")
         return render(request, 'hello.html', {'name': "Narmin"})
 
     
