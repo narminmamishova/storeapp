@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'djoser',
     'silk',
-    
     'playground',
     'debug_toolbar',
     'store',
@@ -48,7 +47,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddlewareMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
