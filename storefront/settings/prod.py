@@ -8,7 +8,7 @@ DEBUG = False
 SECRET_KEY = os.environ['SECRET_KEY']
 
 
-ALLOWED_HOSTS = ["storeapp-prod.herokuapp.com"]
+ALLOWED_HOSTS = ["storeapp-prod-eb2c53a67b8d.herokuapp.com"]
 
 
 DATABASES = {
