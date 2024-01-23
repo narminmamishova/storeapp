@@ -21,6 +21,7 @@ whitenoise = "*"
 django-silk = "*"
 gunicorn = "*"
 dj-database-url = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 autopep8 = "*"
