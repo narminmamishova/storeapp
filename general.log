@@ -1,0 +1,51 @@
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+Calling HTTPbin
+Received the Response
+/mnt/c/Users/natiq/Desktop/storeapp/storefront/settings.py changed, reloading.
+2024-01-16 16:09:23,242, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-16 16:09:23,504, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-16 16:09:25,805, (INFO) - playground.views - Calling HTTPbin
+2024-01-16 16:09:28,409, (INFO) - playground.views - Received the Response
+2024-01-16 16:32:14,351, (INFO) - django.utils.autoreload - /mnt/c/Users/natiq/Desktop/storeapp/manage.py changed, reloading.
+2024-01-16 16:33:25,378, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-16 16:33:25,737, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-16 16:33:41,358, (WARNING) - django.request - Unauthorized: /store/customers/
+2024-01-16 16:35:05,358, (WARNING) - django.request - Unauthorized: /store/collections/
+2024-01-16 16:35:05,411, (WARNING) - django.request - Forbidden: /store/collections/
+2024-01-16 16:35:05,451, (WARNING) - django.request - Bad Request: /store/collections/
+2024-01-16 16:36:30,063, (INFO) - django.utils.autoreload - /mnt/c/Users/natiq/Desktop/storeapp/storefront/settings/common.py changed, reloading.
+2024-01-16 16:36:31,841, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-16 16:36:32,141, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-16 16:37:08,933, (WARNING) - django.request - Unauthorized: /store/collections/
+2024-01-16 16:37:09,307, (WARNING) - django.request - Forbidden: /store/collections/
+2024-01-16 16:37:09,638, (WARNING) - django.request - Bad Request: /store/collections/
+2024-01-16 16:38:50,984, (INFO) - django.utils.autoreload - /mnt/c/Users/natiq/Desktop/storeapp/storefront/settings/common.py changed, reloading.
+2024-01-16 16:38:52,246, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-16 16:38:52,498, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-16 16:41:10,287, (INFO) - django.utils.autoreload - /mnt/c/Users/natiq/Desktop/storeapp/storefront/settings/common.py changed, reloading.
+2024-01-16 16:41:11,997, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-16 16:41:12,233, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-16 16:43:23,305, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-16 16:43:23,578, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-16 17:15:04,721, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-17 08:50:01,188, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-17 08:50:01,881, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-17 08:50:10,648, (INFO) - django.utils.autoreload - /mnt/c/Users/natiq/Desktop/storeapp/storefront/settings/common.py changed, reloading.
+2024-01-17 08:50:11,836, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-17 08:50:42,050, (INFO) - django.utils.autoreload - /mnt/c/Users/natiq/Desktop/storeapp/storefront/settings/common.py changed, reloading.
+2024-01-17 08:50:43,134, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-17 08:50:43,472, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-17 08:54:26,587, (INFO) - django.utils.autoreload - /mnt/c/Users/natiq/Desktop/storeapp/storefront/settings/common.py changed, reloading.
+2024-01-17 08:54:27,729, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-17 08:54:28,019, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-17 08:56:09,582, (INFO) - django.utils.autoreload - /mnt/c/Users/natiq/Desktop/storeapp/storefront/settings/common.py changed, reloading.
+2024-01-17 08:56:11,038, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-17 08:56:11,256, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-17 08:59:05,995, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-17 08:59:08,069, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-18 10:59:13,912, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-18 10:59:24,518, (INFO) - django.utils.autoreload - /mnt/c/Users/natiq/Desktop/storeapp/playground/urls.py changed, reloading.
+2024-01-18 10:59:25,220, (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-01-18 10:59:25,452, (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-01-18 10:59:28,327, (WARNING) - django.request - Not Found: /favicon.ico
